@@ -1,0 +1,14 @@
+/*#cd9ccc #523c5a #382b37 #4c5b58 #7d958e*/
+/*Hi stranger */
+
+.navbar {
+  background-color: #382b37;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #cd9ccc;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #523c5a;
+}
