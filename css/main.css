@@ -1,5 +1,7 @@
 /*#cd9ccc #523c5a #382b37 #4c5b58 #7d958e*/
-/*Hi stranger */
+/*Hello stranger...
+It's okay, you can
+scroll down. */
 
 .navbar {
   background-color: #382b37;
@@ -10,5 +12,14 @@
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: #523c5a;
+  color: #7d958e;
 }
+
+.navbar-default .navbar-toggle {
+  border-color: #cd9ccc;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #523c5a;
+}
+
