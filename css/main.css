@@ -4,7 +4,8 @@ It's okay, you can
 scroll down. */
 
 body {
-  background-image: url(../assets/img/wallpaper-prueba.jpg)
+  background-image: url(../assets/img/wallpaper-prueba.jpg);
+  background-repeat: no-repeat;
 }
 
 .navbar {
@@ -43,4 +44,8 @@ body {
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
   color: #cd9ccc;
   background-color: transparent;
+}
+
+.navbar-default {
+  border-color: #cd9ccc;
 }
