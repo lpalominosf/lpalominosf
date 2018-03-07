@@ -8,44 +8,30 @@ body {
   background-repeat: no-repeat;
 }
 
-.navbar {
+.nav-wrapper {
   background-color: #382b37;
   font-size: 17px;
-  font-family: 'Nanum Gothic Coding', monospace;
+  font-family:
   font-weight: bold;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbartext {
   color: #cd9ccc;
 }
 
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+.navbartext:hover {
   color: #7d958e;
 }
 
-.navbar-default .navbar-toggle {
-  border-color: #cd9ccc;
+
+.brand-logo:hover {
+  color: #7d958e;
 }
 
-.navbar-default .navbar-toggle:hover {
+.hello {
+  color: #cd9ccc;
+}
+
+.section {
   background-color: #523c5a;
-}
-
-#hello {
-  list-style: none;
-  color: #cd9ccc;
-  font-size: 50px;
-  font-weight: bold;
-  font-family: 'Nanum Gothic Coding', monospace;
-  position: absolute;
-  margin-top: 10%;
-}
-
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-  color: #cd9ccc;
-  background-color: transparent;
-}
-
-.navbar-default {
-  border-color: #cd9ccc;
 }
