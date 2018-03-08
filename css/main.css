@@ -30,6 +30,8 @@ body {
 
 .hello {
   color: #cd9ccc;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .section {
