@@ -6,6 +6,7 @@ scroll down. */
 body {
   background-image: url(../assets/img/wallpaper-prueba.jpg);
   background-repeat: no-repeat;
+  font-family: 'Raleway', sans-serif;;
 }
 
 .nav-wrapper {
@@ -42,3 +43,18 @@ body {
   background-color: #523c5a;
 }
 
+.me {
+  border-style: inset;
+  border-width: 2px;
+  border-color: #cd9ccc;
+  align-content: flex-end;
+  margin-top: 20%;
+
+}
+
+#about-section {
+  background-color: #382b37;
+  color: #cd9ccc;
+  font-size: 20px;
+  font-weight: bold;
+}
