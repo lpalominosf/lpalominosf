@@ -12,7 +12,6 @@ body {
 .nav-wrapper {
   background-color: #382b37;
   font-size: 17px;
-  font-family:
   font-weight: bold;
 }
 
@@ -22,6 +21,31 @@ body {
 }
 
 .navbartext:hover {
+  color: #7d958e;
+}
+
+.side-nav {
+  background-color: #382b37;
+}
+
+.side-nav:hover {
+  color: #7d958e;
+}
+
+.side-nav li>a {
+  color: #cd9ccc;
+  font-weight: bold;
+}
+
+.side-nav li>a:hover {
+  color: #7d958e;
+}
+
+.menu {
+  color: #cd9ccc;
+}
+
+.menu:hover {
   color: #7d958e;
 }
 
