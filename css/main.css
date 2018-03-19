@@ -17,12 +17,16 @@ body {
 
 .navbartext {
   color: #cd9ccc;
+  font-weight: bold;
 }
 
 .navbartext:hover {
   color: #7d958e;
 }
 
+.brand-logo {
+  cursor: pointer;
+}
 
 .brand-logo:hover {
   color: #7d958e;
@@ -30,10 +34,11 @@ body {
 
 .hello {
   color: #cd9ccc;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .section {
   background-color: #523c5a;
 }
+
