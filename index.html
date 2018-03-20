@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   
-<body>
+<body data-hijacking="off" data-animation="none">
   <!-- Navbar -->
   <nav>
     <div class="nav-wrapper">
@@ -21,21 +21,21 @@
         <li><a class="navbartext" href="">Home</a></li>
         <li><a class="navbartext" href="#about-section">About Me</a></li>
         <li><a class="navbartext" href="#skills-section">Skills</a></li>
-        <li><a class="navbartext" href="">Proyects</a></li>
+        <li><a class="navbartext" href="#proyects-section">Proyects</a></li>
         <li><a class="navbartext" href="">Contact</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a href="">Home</a></li>
         <li><a href="#about-section">About Me</a></li>
         <li><a href="#skills-section">Skills</a></li>
-        <li><a href="">Proyects</a></li>
+        <li><a href="#proyects-section">Proyects</a></li>
         <li><a href="">Contact</a></li>
       </ul>
     </div>
   </nav>
   <!-- Primera Sección -->
   <div class="parallax-container">
-    <div class="parallax"><img src="assets/img/wallpaper-prueba.jpg"></div>
+    <div class="parallax"><img src="assets/img/wallpaper1.jpg"></div>
   </div>
   <div class="section">
     <div class="row container">
@@ -52,8 +52,8 @@
     <div class="container">
       <div class="row">
         <div class="col s12 m12 l5 xl5 center">
-          <div class="container">
-            <img class="responsive-img circle me" style="width: 200px; height: 200px;" src="assets/img/yo.png" alt="yo">
+          <div class="container foo">
+            <img class="responsive-img circle me bar" data-move-x="-200px" data style="width: 200px; height: 200px;" src="assets/img/yo.png" alt="yo">
           </div>
         </div>
         <div class="col s12 m12 l7 xl7 center">
@@ -91,6 +91,10 @@
       </div>
     </div>
   </section>
+  <section id="proyects-section">
+
+  </section>
+  
 
 
 
@@ -99,6 +103,6 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script src="assets/js/app.js"></script>
-  <script src="assets/js/typer.js"></script>
+  <script src="assets/js/lib/typer.js"></script>
 </body>
 </html>
