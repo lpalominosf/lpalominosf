@@ -112,3 +112,24 @@ nav i.material-icons {
   opacity: 0.7;
 }
 
+#proyects-section {
+  background-color: #382b37;
+  color: #cd9ccc;
+}
+
+.card {
+  background-color: #523c5a;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: #cd9ccc;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+  color: #382b37;
+}
+
+.card-img {
+  width: 250px;
+  height: 300px;
+}
