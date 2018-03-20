@@ -1,6 +1,6 @@
 $(document).ready(function(){
   // Parallax function
   $('.parallax').parallax();
-  // Navbar
+  // Initialize collapse button
   $(".button-collapse").sideNav();
 });
