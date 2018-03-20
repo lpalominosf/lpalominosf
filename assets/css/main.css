@@ -86,7 +86,7 @@ nav i.material-icons {
   border-width: 2px;
   border-color: #cd9ccc;
   align-content: flex-end;
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 #about-section {
@@ -98,6 +98,7 @@ nav i.material-icons {
 
 #skills-section {
   background-color: #4c5b58;
+  color: #cd9ccc;
 }
 
 .skills-img {
@@ -105,5 +106,9 @@ nav i.material-icons {
   height: 200px;
   cursor: pointer;
   padding: 2%;
+}
+
+.img-par {
+  opacity: 0.7;
 }
 

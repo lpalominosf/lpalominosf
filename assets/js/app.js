@@ -6,13 +6,18 @@ $(document).ready(function(){
 
   $('.animate').scrolla();
 
-$('.animate').scrolla({
+  $('.animate').scrolla({
   mobile: true
-});
+  });
 
-$('.animate').scrolla({
-  once: true
-});
+  $('.animate').scrolla({
+    once: true
+  });
+
+  window.sr = ScrollReveal({ reset: true, mobile: true });
+
+// Customizing a reveal set
+  sr.reveal('.reveal', { duration: 200 });
 });
 
 
