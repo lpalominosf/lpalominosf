@@ -8,7 +8,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-h1 {
+h1, h5 {
   font-family: 'Padauk', sans-serif;
 }
 
@@ -157,13 +157,13 @@ nav i.material-icons {
 
 .icon {
   font-size: 60px;
-  margin: 4%;
-}
-
-.icon:hover {
-  background-color: #7d958e;
+  margin: 2%;
 }
 
 .responsive-img {
   cursor: pointer;
+}
+
+.light, .page-footer .footer-copyright {
+  color: #523c5a;
 }
