@@ -97,8 +97,8 @@ nav i.material-icons {
 }
 
 #skills-section {
-  background-color: #4c5b58;
-  color: #cd9ccc;
+  background-color: #cd9ccc;
+  color: #523c5a;
 }
 
 .skills-img {
@@ -106,10 +106,6 @@ nav i.material-icons {
   height: 150px;
   cursor: pointer;
   padding: 2%;
-}
-
-.img-par {
-  opacity: 0.7;
 }
 
 #proyects-section {
@@ -162,4 +158,9 @@ nav i.material-icons {
 
 .light, .page-footer .footer-copyright {
   color: #523c5a;
+}
+
+.fname {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 20px;
 }
