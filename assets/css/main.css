@@ -111,10 +111,13 @@ nav i.material-icons {
 #proyects-section {
   background-color: #382b37;
   color: #cd9ccc;
+  text-align: center;
+  font-size: 25px;
 }
 
 .card {
   background-color: #523c5a;
+  height: 500px;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
