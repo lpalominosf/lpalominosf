@@ -25,7 +25,7 @@ body {
 
 .side-nav {
   background-color: #382b37;
-  height: 300px;
+  height: 410px;
 }
 
 .side-nav:hover {
@@ -35,7 +35,7 @@ body {
 .side-nav li>a {
   color: #cd9ccc;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .side-nav li>a:hover {
@@ -175,4 +175,13 @@ nav i.material-icons {
 
 .material-tooltip {
   color: #cd9ccc;
+}
+
+.name, .email {
+  color: #382b37;
+}
+
+.user-view {
+  font-size: 30px;
+  font-weight: bold;s
 }

@@ -6,6 +6,8 @@ $(document).ready(function(){
 
   $('.tooltipped').tooltip();
 
+  $('.scrollspy').scrollSpy();
+
   $('.animate').scrolla();
 
   $('.animate').scrolla({
@@ -21,6 +23,7 @@ $(document).ready(function(){
 // Customizing a reveal set
   sr.reveal('.reveal', { duration: 200 });
 });
+
 
 
 
