@@ -151,7 +151,8 @@ nav i.material-icons {
 
 
 .icon {
-  font-size: 60px;
+  width: 60px;
+  height: 60px;
   margin: 2%;
 }
 
@@ -166,4 +167,12 @@ nav i.material-icons {
 .fname {
   font-family: 'Mr Dafoe', cursive;
   font-size: 20px;
+}
+
+.backdrop{
+  background-color: #382b37;
+}
+
+.material-tooltip {
+  color: #cd9ccc;
 }
