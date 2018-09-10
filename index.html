@@ -15,13 +15,13 @@
   <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/media.css">
   
-<body data-hijacking="off" data-animation="none">
+<body data-hijacking="off" data-animation="none" data-spy="scroll" data-target=".navbar" data-offset="50">
   <!-- Navbar -->
-<div class="navbar-fixed">
+<div class="navbar-fixed scrollspy">
   <nav>
     <div class="nav-wrapper">
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="large material-icons menu">menu</i></a>
-     <!--<img class="brand-logo" src="assets/img/menacing.png" style="width: 70px; height: 60px;" alt=""> -->
+    <!--<img class="brand-logo" src="assets/img/menacing.png" style="width: 70px; height: 60px;" alt=""> -->
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a class="navbartext" href="">Home</a></li>
         <li><a class="navbartext" href="#about-section">About Me</a></li>
@@ -51,12 +51,12 @@
 </div>
 
   
-
+<div class="divider"></div>
 <!-- Primera Sección -->
   <div class="parallax-container">
     <div class="parallax"><img src="assets/img/wallpaper1.jpg"></div>
   </div>
-  <div class="section">
+  <div class="section scrollspy">
     <div class="row container">
       <p class="center hello">Hello!...
         <span class="typer hello" id="main" data-words="I'm Lorena, welcome to my portfolio." data-colors="#cd9ccc" data-delay="100" data-deleteDelay="1000"></span>
@@ -66,8 +66,10 @@
   <div class="parallax-container">
     <div class="parallax"><img src="assets/img/wallpaper2.jpg"></div>
   </div>
+
+  <div class="divider"></div>
   <!-- Sección About -->
-  <section id="about-section">
+  <section id="about-section" class="scrollspy">
     <div class="container">
       <div class="row">
         <div class="col s12 m12 l5 xl5 center">
@@ -84,6 +86,8 @@
       </div>
     </div>
   </section>
+
+  <div class="divider"></div>
   <!-- Skills Section -->
   <section id="skills-section" class="scrollspy">
     <div class="container">
@@ -116,6 +120,7 @@
     </div>
   </section>
 
+  <div class="divider"></div>
   <!-- Proyects -->
   <section id="proyects-section" class="scrollspy">
     <div class="container">
@@ -142,7 +147,7 @@
             <div class="card-content">
               <span class="card-title">SWAPI</span>
                 <img class="responsive-img hvr-hang" src="assets/img/proyects/swapi.png" alt="swapi" style="width: 300px; height: 200px;">
-                <p>A simple library using SPAPI the Star Wars API</p>
+                <p>A simple library using SWAPI the Star Wars API</p>
               <div class="card-action center">
                 <a class="btn-floating btn-large waves-effect waves-light" href="https://github.com/lpalominosf/swapi" target="_blank">see it</a>
               </div>
@@ -204,6 +209,7 @@
       </div>
     </section>
 
+  <div class="divider"></div>
   <!-- Contact -->
   <footer class="page-footer scrollspy" id="contact-section">
     <div class="container">
@@ -217,9 +223,9 @@
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright scrollspy">
       <div class="container">
-        <p class="right">© 2018 Developed by <span class="fname">Lorena Palominos</span> </p>
+        <p class="right">© 2018 Developed by <span class="fname">Lorena Palominos</span></p>
       </div>
     </div>
   </footer>

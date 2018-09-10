@@ -183,5 +183,14 @@ nav i.material-icons {
 
 .user-view {
   font-size: 30px;
-  font-weight: bold;s
+  font-weight: bold;
+}
+
+.divider{
+  background: #cd9ccc;
+}
+
+nav ul a.active {
+  font-weight: 500;
+  border-bottom: 2px solid #cd9ccc;
 }

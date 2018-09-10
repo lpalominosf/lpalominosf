@@ -1,13 +1,16 @@
 $(document).ready(function(){
+  // Scrollspy
+  $('.scrollspy').scrollSpy();
   // Parallax function
   $('.parallax').parallax();
+
   // Initialize collapse button
   $(".button-collapse").sideNav();
 
+  // Tooltip
   $('.tooltipped').tooltip();
-
-  $('.scrollspy').scrollSpy();
-
+  
+  // Scrolla
   $('.animate').scrolla();
 
   $('.animate').scrolla({
@@ -18,10 +21,11 @@ $(document).ready(function(){
     once: true
   });
 
+  // Scrollreveal
   window.sr = ScrollReveal({ reset: true, mobile: true });
 
-// Customizing a reveal set
-  sr.reveal('.reveal', { duration: 200 });
+  // Customizing a reveal set
+  sr.reveal('.reveal', { duration: 200 });  
 });
 
 
